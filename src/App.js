@@ -8,12 +8,13 @@ import RenderCallback from './RenderCallback.js';
 import Container from './Container.js';
 import HOC from './HOC.js';
 import Inject from './Inject'
+import Map from './Map'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Inject />
+        <Map/>
       </div>
     );
   }
