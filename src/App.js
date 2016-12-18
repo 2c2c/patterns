@@ -36,6 +36,9 @@ class App extends Component {
         <li>
           <Link to={`/map`}>map</Link>
         </li>
+        <li>
+          <Link to={`/motion1`}>motion1</Link>
+        </li>
       </ul>
     );
   }

@@ -11,6 +11,8 @@ import HOC from './HOC.js';
 import Inject from './Inject';
 import Map from './Map';
 import Main from './Main';
+import Motion1 from './Motion1'
+import Motion2 from './Motion2'
 
 ReactDOM.render(
   <Router history={browserHistory}>
@@ -23,5 +25,6 @@ ReactDOM.render(
     <Route path="hoc" component={HOC}/>
     <Route path="inject" component={Inject}/>
     <Route path="map" component={Map}/>
+    <Route path="motion1" component={Motion1}/>
   </Route>
 </Router>, document.getElementById('root'));
