@@ -26,5 +26,6 @@ ReactDOM.render(
     <Route path="inject" component={Inject}/>
     <Route path="map" component={Map}/>
     <Route path="motion1" component={Motion1}/>
+    <Route path="motion2" component={Motion2}/>
   </Route>
 </Router>, document.getElementById('root'));

@@ -39,6 +39,9 @@ class App extends Component {
         <li>
           <Link to={`/motion1`}>motion1</Link>
         </li>
+        <li>
+          <Link to={`/motion2`}>motion2</Link>
+        </li>
       </ul>
     );
   }
