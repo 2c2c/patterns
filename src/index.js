@@ -19,10 +19,9 @@ import Map from './Map';
 import Main from './Main';
 import Motion1 from './Motion1'
 import Motion2 from './Motion2'
-import Board from './Board'
-import {observe} from './Game'
+import Board from './chess/Board'
+import {observe} from './chess/Game'
 
-const ChessBoard = () => <Board knightPosition={[0, 0,]}/>
 observe(knightPosition =>
 ReactDOM.render(
   <Board knightPosition={knightPosition} />,
