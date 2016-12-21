@@ -11,6 +11,7 @@ import HOC from './HOC.js';
 import Inject from './Inject'
 import Map from './Map'
 
+
 class App extends Component {
   render() {
     return (
@@ -41,6 +42,9 @@ class App extends Component {
         </li>
         <li>
           <Link to={`/motion2`}>motion2</Link>
+        </li>
+        <li>
+          <Link to={`/dragdrop`}>dragdrop</Link>
         </li>
       </ul>
     );
